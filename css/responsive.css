@@ -1,0 +1,57 @@
+@media (max-width: 991px){
+	.navbar-toggler {border: 1px solid black;}
+	.navbar-nav .nav-item:after {width: 0px;
+    height: 0px;}
+    .navbar-nav .nav-link {
+    display: inline-block;}
+    .w-100vh{
+	min-height: 450px;}
+	.about h2 {
+    font-size: 20px;}
+	.about p {
+    font-size: 13px;}
+    .approch-content {
+    padding-left: 5px !important;
+    padding-right: 5px !important;}
+    .approch-content p {
+    margin: 0;
+    font-size: 15px;}
+    .work-details i {
+    font-size: 25px;}
+    .work-details h2 {
+    font-size: 20px;
+    margin: 0;}
+    .work-details p {
+    font-size: 13px;
+    margin: 0;}
+}
+
+@media (max-width: 767px){
+	.top-address {
+    justify-content: center;}
+    .top-address li {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 15px;}
+    .about {
+    margin-bottom: 40px;}
+    .approch-img {
+    margin-bottom: 70px;}
+    .step {
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    right: auto;
+    top: auto;}
+    .approch-content p {
+    margin-bottom: 30px;}
+    .step.left {left: 50%;}
+    .cross {
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    border: 2px solid #fff;
+}
